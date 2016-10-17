@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/login/.*$
+RewriteCond %{HTTP_FORWARDED} false
+RewriteRule ^ index.php

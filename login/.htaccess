@@ -1,0 +1,5 @@
+AuthName "Please enter your username and password."
+AuthType Basic
+#Change this line to the correct path to the .htpass in this directory.
+AuthUserFile /full/path/to/login/.htpass
+Require valid-user
